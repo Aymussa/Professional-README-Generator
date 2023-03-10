@@ -1,42 +1,42 @@
 # Project Title
-kajsdb
+read me generator
 
 ## Project description
-asdasd
+this generator makes a readme easir to create
 
 ## Table Of Content
 
-          #### Project-description
-          ##### Installation
-          ##### usage
-          ##### License
-          ##### Contributing
-          ##### Test
-          ##### Questions
+          [Project description]#### Project-description
+          [Installation]##### Installation
+          [Usage]##### usage
+          [License]##### License
+          [Contributing]##### Contributing
+          [Test]##### Test
+          [Questions]##### Questions
           
 
 ## Installation
-asd
+git pull and run node
 
 ## Usage
-asdasda
+to make a quick and easy readme file
 
 ## License 
 undefined
 
 ## Contributing
-asdasd
+no
 
 ## Code of Conduct
 * [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md)
 
 
 ## Test
-asddas
+n/a
 
 ## Questions
 * For additional help or questions about collaboration, please reach out to
-GitHub username: asdas 
+GitHub username: aymussa 
 or via email on
-Email : asd
+Email : example@gmail.com
 

@@ -32,13 +32,13 @@ let {title ,description, tableContent, installation, usage,license, contributing
         message:
           "Write the table of content for your project  or selected ENTER for the default content",
           default: `
-          #### Project-description
-          ##### Installation
-          ##### usage
-          ##### License
-          ##### Contributing
-          ##### Test
-          ##### Questions
+          [Project description]#### Project-description
+          [Installation]##### Installation
+          [Usage]##### usage
+          [License]##### License
+          [Contributing]##### Contributing
+          [Test]##### Test
+          [Questions]##### Questions
           `,
       },
       {
