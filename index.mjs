@@ -1,6 +1,8 @@
 import inquirer from "inquirer";
 import fs from "fs/promises";
 
+
+//This function first check for an input and prompts the user to enter an input which needs to be validated to be passed if not it will return a message
 const requireInput = (input) => {
   if (input) {
     return true;
@@ -9,6 +11,7 @@ const requireInput = (input) => {
   }
 };
 
+//await function to a promise to wait for the user input to all be completed
 let {title ,description, tableContent, installation, usage,license, contributing, test, github,email }= await inquirer
 .prompt([
     /*pass your questions in here*/
@@ -30,13 +33,13 @@ let {title ,description, tableContent, installation, usage,license, contributing
       name: "tableContent",
       message:
       "Write the table of content for your project  or selected ENTER for the default content",
-      default: ` [Project description](####Project-description
-      [Installation](#####Installation)
-      [Usage](#####usage)
-      [License](#####License)
-      [Contributing](#####Contributing)
-      [Test](#####Test)
-      [Questions](#####Questions)
+      default: ` - [Project description](####Project-description
+      - [Installation](#####Installation)
+      - [Usage](#####usage)
+      - [License](#####License)
+      - [Contributing](#####Contributing)
+      - [Test](#####Test)
+      - [Questions](#####Questions)
        `,
       },
       {
@@ -61,7 +64,7 @@ let {title ,description, tableContent, installation, usage,license, contributing
           "eclipse",
         ],
         filter(val){
-            return val.tolowerCase();
+            return val.toLowerCase();
         }
       },
       {
@@ -90,6 +93,7 @@ let {title ,description, tableContent, installation, usage,license, contributing
       },
 ])
 
+//readme text layout setup for when the file is created
 let readmeText = `# Project Title
 ${title}
 
@@ -105,7 +109,8 @@ ${installation}
 ## Usage
 ${usage}
 
-## License 
+## License
+This application is covered under:
 ${generateLicense(license)}
 
 ## Contributing
@@ -126,21 +131,22 @@ Email : ${email}
 
 `
 
-fs.writeFile("READMEgenerator.md",readmeText )
+//Node fs modile creates a new md file and writes the contents for the prompt questions above
+await fs.writeFile("READMEgenerator.md",readmeText )
 
-function generateLicense(license){
 //This function generates a license from the selected list/
 //user input will determine the output of this statement as selected
-    if(license === "apache"){
-    return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+function generateLicense(license){
+
+  if(license === "apache"){
+    return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
 }
 else if (license === "boots"){
-    return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
-
+    return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
 }
 
 else if (license === "eclipse"){
-    return "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)"
+    return "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)";
 }
 }
 console.log("success!");
