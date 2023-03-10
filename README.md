@@ -10,12 +10,12 @@ This README generator allow a user to quickly by answering the prompt generated 
 
 
 ## Table Of Content
-[Installation](#####Installation)
-[Usage](#####usage)
-[License](#####License)
-[Contributing](#####Contributing)
-[Test](#####Test)
-[Questions](#####Questions)
+- [Installation](#####Installation)
+- [Usage](#####usage)
+- [License](#####License)
+- [Contributing](#####Contributing)
+- [Test](#####Test)
+- [Questions](#####Questions)
 
 ## Installation
 Install with npm
