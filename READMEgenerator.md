@@ -1,42 +1,42 @@
 # Project Title
-a
+Example readme Gen
 
 ## Project description
-s
+testing for the readme generator
 
 ## Table Of Content
- - [Project description](####Project-description
-      - [Installation](#####Installation)
-      - [Usage](#####usage)
-      - [License](#####License)
-      - [Contributing](#####Contributing)
-      - [Test](#####Test)
-      - [Questions](#####Questions)
+ [Project description](####Project-description
+      [Installation](#####Installation)
+      [Usage](#####usage)
+      [License](#####License)
+      [Contributing](#####Contributing)
+      [Test](#####Test)
+      [Questions](#####Questions)
        
 
 ## Installation
-d
+install with npm
 
 ## Usage
-a
-
+to generator a read me file
 ## License
 This application is covered under:
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+
 ## Contributing
-d
+no
 
 ## Code of Conduct
 * [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md)
 
 
 ## Test
-s
+n/a
 
 ## Questions
 * For additional help or questions about collaboration, please reach out to
-GitHub username: d 
+GitHub username: aymussa 
 or via email on
-Email : d
+Email : emaple@gmail.com
 

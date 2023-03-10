@@ -25,9 +25,6 @@ $ npm i -g readme-generator
 ## Usage
 This application is to make an easy to use quick readme file.
 
-## License 
-undefined
-
 ## Contributing
 
 
