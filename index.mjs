@@ -1,6 +1,5 @@
 import inquirer from "inquirer";
 import fs from "fs/promises";
-import { table } from "console";
 
 const requireInput = (input) => {
   if (input) {
@@ -27,19 +26,18 @@ let {title ,description, tableContent, installation, usage,license, contributing
         validate: requireInput,
     },
     {
-        type: "input",
-        name: "tableContent",
-        message:
-          "Write the table of content for your project  or selected ENTER for the default content",
-          default: `
-          [Project description]#### Project-description
-          [Installation]##### Installation
-          [Usage]##### usage
-          [License]##### License
-          [Contributing]##### Contributing
-          [Test]##### Test
-          [Questions]##### Questions
-          `,
+      type: "input",
+      name: "tableContent",
+      message:
+      "Write the table of content for your project  or selected ENTER for the default content",
+      default: ` [Project description](####Project-description
+      [Installation](#####Installation)
+      [Usage](#####usage)
+      [License](#####License)
+      [Contributing](#####Contributing)
+      [Test](#####Test)
+      [Questions](#####Questions)
+       `,
       },
       {
         type: "input",

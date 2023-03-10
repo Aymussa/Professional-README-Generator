@@ -1,25 +1,29 @@
 # Project Title
-a
+Professional README Generator 
 
 ## Project description
-a
+This README generator allow a user to quickly by answering the prompt generated readme
+
+
+## DEOMO gif
+![](https://github.com/Aymussa/Professional-README-Generator/blob/main/Demo/Demo%20gif.gif)
+
 
 ## Table Of Content
-
-          #### Project-description
-          ##### Installation
-          ##### usage
-          ##### License
-          ##### Contributing
-          ##### Test
-          ##### Questions
-          
+[Installation](#####Installation)
+[Usage](#####usage)
+[License](#####License)
+[Contributing](#####Contributing)
+[Test](#####Test)
+[Questions](#####Questions)
 
 ## Installation
-a
+Install with npm
+
+$ npm i -g readme-generator
 
 ## Usage
-a
+This application is to make an easy to use quick readme file.
 
 ## License 
 undefined
@@ -32,11 +36,11 @@ undefined
 
 
 ## Test
-
+Install with npm
 
 ## Questions
 * For additional help or questions about collaboration, please reach out to
-GitHub username:  
+GitHub username:  aymussa
 or via email on
 Email : 
 

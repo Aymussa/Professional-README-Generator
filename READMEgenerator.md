@@ -1,25 +1,24 @@
 # Project Title
-read me generator
+Example readme Gen
 
 ## Project description
-this generator makes a readme easir to create
+testing for the readme generator
 
 ## Table Of Content
-
-          [Project description]#### Project-description
-          [Installation]##### Installation
-          [Usage]##### usage
-          [License]##### License
-          [Contributing]##### Contributing
-          [Test]##### Test
-          [Questions]##### Questions
-          
+ [Project description](####Project-description
+      [Installation](#####Installation)
+      [Usage](#####usage)
+      [License](#####License)
+      [Contributing](#####Contributing)
+      [Test](#####Test)
+      [Questions](#####Questions)
+       
 
 ## Installation
-git pull and run node
+install with npm
 
 ## Usage
-to make a quick and easy readme file
+to generator a read me file
 
 ## License 
 undefined
@@ -38,5 +37,5 @@ n/a
 * For additional help or questions about collaboration, please reach out to
 GitHub username: aymussa 
 or via email on
-Email : example@gmail.com
+Email : emaple@gmail.com
 
